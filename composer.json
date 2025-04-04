@@ -1,5 +1,5 @@
 {
-  "name": "menatwork/synccto",
+  "name": "yanolateam/contao-synccto",
   "description": "Synchronize multiple contao installations with each other",
   "keywords": [
     "backup",
@@ -11,19 +11,16 @@
   "homepage": "http://www.men-at-work.de",
   "license": "LGPL-3.0-or-later",
   "authors": [
-    {
-      "name": "Stefan Heimes",
-      "email": "heimes@men-at-work.de",
-      "homepage": "http://www.men-at-work.de",
-      "role": "Developer"
-    }
+      {
+          "name": "Yanolateam",
+          "email": "baptiste.saintpierre@yanola.fr",
+          "homepage": "https://github.com/Yanolateam/",
+          "role": "Developer"
+      }
   ],
   "support": {
-    "email": "contao@men-at-work.de",
-    "issues": "https://github.com/menatwork/syncCto/issues",
-    "wiki": "https://github.com/menatwork/syncCto/wiki",
-    "irc": "irc://irc.freenode.org/contao.dev",
-    "source": "https://github.com/menatwork/syncCto"
+      "issues": "https://github.com/yanolabsp/contao-bcapp-toast/issues",
+      "source": "https://github.com/yanolabsp/contao-synccto"
   },
   "require": {
     "php": "^8.0",
@@ -49,5 +46,6 @@
   },
   "extra": {
     "contao-manager-plugin": "MenAtWork\\SyncCto\\ContaoManager\\Plugin"
-  }
+  },
+  "version": "0.1"
 }
